@@ -15,6 +15,7 @@ app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
 
 def getBounds():
+	#it's buttomLeft and topRight actually
 	topLeft = [49.001654, -123.286894]
 	bottomRight = [49.360108, -122.712711]
 	row = 3
